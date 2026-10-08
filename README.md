@@ -28,7 +28,7 @@
 
 The agent conducts a structured discovery conversation, identifies the prospect's marketing challenges and growth goals, qualifies budget and timeline, handles common objections, and moves qualified prospects toward a strategy call.
 
-The completed validation report records the project as **100% Passed**, with **5/5 simulation scenarios verified**. fileciteturn19file0L2-L8
+The completed validation report records the project as **100% Passed**, with **5/5 simulation scenarios verified**.
 
 > **Portfolio project:** designed to demonstrate conversational architecture, controlled discovery, objection handling, fallback behavior, and reliable call termination.
 
@@ -51,7 +51,7 @@ The completed validation report records the project as **100% Passed**, with **5
 
 ## 🏗️ 5-Stage Conversational Architecture
 
-The project uses a rigorous five-stage workflow documented in the completion report. fileciteturn19file0L11-L17
+The project uses a rigorous five-stage workflow documented in the completion report.
 
 ```mermaid
 flowchart LR
@@ -109,13 +109,13 @@ The agent:
 3. Proposes a meeting time when appropriate.
 4. Ends the conversation cleanly when the interaction is complete.
 
-The completion report specifically documents summary, strategy-call scheduling, and clean call termination as the closing behavior. fileciteturn19file0L15-L17
+The completion report specifically documents summary, strategy-call scheduling, and clean call termination as the closing behavior.
 
 ---
 
 ## 🧪 Simulation Test Suite — 5/5 Passed
 
-The project completion report records **5/5 verified scenarios as Passed**. fileciteturn19file0L21-L37
+The project completion report records **5/5 verified scenarios as Passed**.
 
 | # | Test Case | Validation | Result |
 |---:|---|---|:---:|
@@ -134,7 +134,7 @@ The project completion report records **5/5 verified scenarios as Passed**. f
 
 </div>
 
-The supplied test-case configuration also records the five scenarios as Retell simulations using **gpt-4.1-mini**, with explicit validation metrics for each behavior. fileciteturn19file1L3-L11 fileciteturn19file1L42-L50
+The supplied test-case configuration also records the five scenarios as Retell simulations using **gpt-4.1-mini**, with explicit validation metrics for each behavior.
 
 ---
 
@@ -152,35 +152,35 @@ Expected behavior:
 - Begin discovery
 - Ask the first discovery question one at a time
 
-Validated in the supplied test configuration. fileciteturn19file1L55-L65
+Validated in the supplied test configuration.
 
 ### 💰 Price Objection
 
 **Input example:**  
 > "Hi, I'm Sarah from RetailPlus. We need help scaling our ads, but that sounds pretty expensive and costly for us."
 
-The agent is expected to acknowledge the concern, avoid quoting exact prices, reframe around business goals, and continue the conversation. fileciteturn19file1L42-L50
+The agent is expected to acknowledge the concern, avoid quoting exact prices, reframe around business goals, and continue the conversation.
 
 ### 🤝 Existing Agency Objection
 
 **Input example:**  
 > "Hi, I'm Mike from GrowthCo. We're already working with another agency right now so we don't need this."
 
-The agent acknowledges the existing relationship without arguing, explores the current setup, offers a low-commitment comparison call, and progresses toward closing. fileciteturn19file1L29-L39
+The agent acknowledges the existing relationship without arguing, explores the current setup, offers a low-commitment comparison call, and progresses toward closing.
 
 ### 🔄 Vague Answer Fallback
 
 **Input example:**  
 > "We do everything, like social media and SEO, and we want to grow a lot in the next few months."
 
-The agent extracts the useful information and transitions to the next unanswered question instead of repeating itself. fileciteturn19file1L16-L26
+The agent extracts the useful information and transitions to the next unanswered question instead of repeating itself.
 
 ### 🛑 Explicit Decline Stop Condition
 
 **Input example:**  
 > "Actually, I am not interested at all and do not want to continue this call."
 
-The validated behavior is a polite closing followed immediately by the `end_call` tool. fileciteturn19file1L3-L11
+The validated behavior is a polite closing followed immediately by the `end_call` tool.
 
 ---
 
@@ -249,7 +249,7 @@ apex-growth-discovery-agent/
 
 **[Open the Project Completion Report →](Apex%20Growth%20Discovery%20Agent%20-%20Project%20Completion%20Report.pdf)**
 
-The report documents the architecture, 5/5 simulation results, repository, and Loom walkthrough. fileciteturn19file0L39-L41
+The report documents the architecture, 5/5 simulation results, repository, and Loom walkthrough.
 
 ### 🧪 Test Configuration
 
