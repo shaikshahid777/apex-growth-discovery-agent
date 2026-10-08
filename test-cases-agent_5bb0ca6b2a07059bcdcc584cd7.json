@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Explicit Decline Stop Condition",
+    "dynamic_variables": {},
+    "metrics": [
+      "Agent says the polite closing line (\"Thank you for your time. Have a great day!\") and immediately invokes the end_call tool."
+    ],
+    "user_prompt": "Actually, I am not interested at all and do not want to continue this call.",
+    "creation_timestamp": 1791378788089,
+    "user_modified_timestamp": 1791378788089,
+    "type": "simulation",
+    "tool_mocks": [],
+    "llm_model": "gpt-4.1-mini"
+  },
+  {
+    "name": "Vague Answer Fallback",
+    "dynamic_variables": {},
+    "metrics": [
+      "Agent acknowledges and extracts the provided info, then moves smoothly to the next unanswered question without repeating."
+    ],
+    "user_prompt": "We do everything, like social media and SEO, and we want to grow a lot in the next few months.",
+    "creation_timestamp": 1791378739999,
+    "user_modified_timestamp": 1791378739999,
+    "type": "simulation",
+    "tool_mocks": [],
+    "llm_model": "gpt-4.1-mini"
+  },
+  {
+    "name": "Already With Agency Objection",
+    "dynamic_variables": {},
+    "metrics": [
+      "Agent acknowledges without arguing, asks about current setup, offers a low-commitment comparison call, and proceeds to Closing."
+    ],
+    "user_prompt": "Hi, I'm Mike from GrowthCo. We're already working with another agency right now so we don't need this.",
+    "creation_timestamp": 1791378692652,
+    "user_modified_timestamp": 1791380342557,
+    "type": "simulation",
+    "tool_mocks": [],
+    "llm_model": "gpt-4.1-mini"
+  },
+  {
+    "name": "Price Objection",
+    "dynamic_variables": {},
+    "metrics": [
+      "Agent acknowledges politely, avoids quoting exact prices, reframes around goals, and progresses toward the next stage."
+    ],
+    "user_prompt": "Hi, I'm Sarah from RetailPlus. We need help scaling our ads, but that sounds pretty expensive and costly for us.",
+    "creation_timestamp": 1791378643605,
+    "user_modified_timestamp": 1791378643605,
+    "type": "simulation",
+    "tool_mocks": [],
+    "llm_model": "gpt-4.1-mini"
+  },
+  {
+    "name": "Happy Path Discovery",
+    "dynamic_variables": {},
+    "metrics": [
+      "Agent greets warmly, confirms name and company, and asks the first discovery question one at a time."
+    ],
+    "user_prompt": "Hi, I'm John from TechCorp. I'm looking for a marketing partner because our lead generation dropped.",
+    "creation_timestamp": 1791378602957,
+    "user_modified_timestamp": 1791378602957,
+    "type": "simulation",
+    "tool_mocks": [],
+    "llm_model": "gpt-4.1-mini"
+  }
+]
